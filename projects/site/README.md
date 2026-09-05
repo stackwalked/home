@@ -6,7 +6,7 @@ a click-to-open menu. Clicking the menu again, clicking outside it, or pressing
 Escape closes it. Destinations remain visibly unavailable until their pages exist.
 
 Site copy is lowercase unless explicitly requested otherwise; see `AGENTS.md`.
-The sky is `public/landing-sky.webp`. Barlow Condensed is hosted locally, with
+The sky is `public/landing-sky.webp`. Instrument Sans is hosted locally, with
 its OFL license in `public/fonts/`.
 
 From the repository root:

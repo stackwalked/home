@@ -4,6 +4,7 @@
   headings, button labels, accessibility labels, and descriptive metadata,
   unless the user explicitly requests capitalization.
 - write the copy in lowercase; do not use css text transforms to enforce it.
+- use locally hosted instrument sans for site typography.
 - preserve the casing required by code identifiers, framework apis, file paths,
   external urls, and third-party license text.
 - keep the landing page restrained: the supplied sky fills the screen, with

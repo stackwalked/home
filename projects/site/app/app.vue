@@ -46,18 +46,18 @@ function dismissOutside(event: PointerEvent) {
 
 <style>
 @font-face {
-  font-family: 'Barlow Condensed';
-  src: url('/fonts/barlow-condensed-medium.ttf') format('truetype');
-  font-weight: 500;
+  font-family: 'Instrument Sans';
+  src: url('/fonts/instrument-sans-regular.ttf') format('truetype');
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 
 :root {
   color-scheme: light;
-  font-family: 'Barlow Condensed', 'Arial Narrow', sans-serif;
+  font-family: 'Instrument Sans', Arial, sans-serif;
   font-synthesis: none;
-  font-weight: 500;
+  font-weight: 400;
   color: #41474a;
   background: #fff;
 }
