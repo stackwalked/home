@@ -8,7 +8,8 @@ export default defineNuxtConfig({
     head: {
       title: 'tsui.moe',
       htmlAttrs: { lang: 'en' },
-      meta: [{ name: 'description', content: 'tsui.moe — coming soon.' }],
+      meta: [{ name: 'description', content: 'The personal space of tsui.moe. Projects, writing, collections, artifacts, and archives.' }],
+      link: [{ rel: 'preload', href: '/fonts/barlow-condensed-medium.ttf', as: 'font', type: 'font/ttf', crossorigin: '' }],
     },
   },
 })

@@ -10,3 +10,4 @@ dist/
 !.env.example
 .dev.vars
 .dev.vars.*
+*:Zone.Identifier

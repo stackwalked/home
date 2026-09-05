@@ -1,7 +1,17 @@
 # site
 
-Minimal Nuxt app for `tsui.moe`, configured for Cloudflare Workers. The landing
-page contains only the domain name and a “Coming soon.” placeholder.
+Nuxt app for `tsui.moe`, configured for Cloudflare Workers. The landing page
+uses the supplied overexposed sky, an asymmetric black-and-white composition,
+and locally hosted Barlow Condensed typography.
+
+“Enter” opens a compact index in the same scene. “Back” or Escape restores
+the entrance, including keyboard focus. Index destinations are visibly disabled
+until their pages exist. The scene supports narrow screens and reduced motion.
+
+The first design follows the taste interview: quiet and sun-bleached; sky over
+almost the whole screen; `tsui.moe` without a tagline; restrained Source-era
+controls; no added accent color. The sky is the existing `public/landing-sky.webp`.
+The font's OFL license is included in `public/fonts/`.
 
 From the repository root:
 
