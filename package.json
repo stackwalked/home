@@ -8,7 +8,10 @@
   ],
   "scripts": {
     "orchestrate": "bun run projects/orchestrator/src/index.ts",
-    "check": "bun run --filter '@home/orchestrator' check"
+    "check": "bun run --filter '*' check",
+    "site:dev": "bun run --filter site dev",
+    "site:build": "bun run --filter site build",
+    "site:preview": "bun run --filter site preview"
   },
   "engines": {
     "bun": ">=1.1.0"

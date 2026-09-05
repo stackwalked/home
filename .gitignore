@@ -2,3 +2,11 @@ node_modules/
 .bun/
 dist/
 .DS_Store
+.nuxt/
+.output/
+.wrangler/
+.env
+.env.*
+!.env.example
+.dev.vars
+.dev.vars.*

@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "tsui-moe",
+  "account_id": "94ca6b08eadcf536ff2c3d3ad8d09f07",
+  "main": ".output/server/index.mjs",
+  "compatibility_date": "2026-09-05",
+  "compatibility_flags": ["nodejs_compat"],
+  "assets": {
+    "directory": ".output/public",
+    "binding": "ASSETS"
+  },
+  "workers_dev": false,
+  "preview_urls": false,
+  "routes": [
+    { "pattern": "tsui.moe", "custom_domain": true }
+  ]
+}
