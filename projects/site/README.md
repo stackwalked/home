@@ -1,17 +1,13 @@
 # site
 
 Nuxt app for `tsui.moe`, configured for Cloudflare Workers. The landing page
-uses the supplied overexposed sky, an asymmetric black-and-white composition,
-and locally hosted Barlow Condensed typography.
+uses the supplied overexposed sky and a small footer with the site name and
+a click-to-open menu. Clicking the menu again, clicking outside it, or pressing
+Escape closes it. Destinations remain visibly unavailable until their pages exist.
 
-“Enter” opens a compact index in the same scene. “Back” or Escape restores
-the entrance, including keyboard focus. Index destinations are visibly disabled
-until their pages exist. The scene supports narrow screens and reduced motion.
-
-The first design follows the taste interview: quiet and sun-bleached; sky over
-almost the whole screen; `tsui.moe` without a tagline; restrained Source-era
-controls; no added accent color. The sky is the existing `public/landing-sky.webp`.
-The font's OFL license is included in `public/fonts/`.
+Site copy is lowercase unless explicitly requested otherwise; see `AGENTS.md`.
+The sky is `public/landing-sky.webp`. Barlow Condensed is hosted locally, with
+its OFL license in `public/fonts/`.
 
 From the repository root:
 
