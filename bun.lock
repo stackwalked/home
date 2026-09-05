@@ -1,0 +1,16 @@
+{
+  "lockfileVersion": 2,
+  "configVersion": 1,
+  "workspaces": {
+    "": {
+      "name": "home-orchestration",
+    },
+    "projects/orchestrator": {
+      "name": "@home/orchestrator",
+      "version": "0.1.0",
+    },
+  },
+  "packages": {
+    "@home/orchestrator": ["@home/orchestrator@workspace:projects/orchestrator"],
+  }
+}

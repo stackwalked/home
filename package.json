@@ -1,0 +1,16 @@
+{
+  "name": "home-orchestration",
+  "private": true,
+  "type": "module",
+  "packageManager": "bun@1.4.1",
+  "workspaces": [
+    "projects/*"
+  ],
+  "scripts": {
+    "orchestrate": "bun run projects/orchestrator/src/index.ts",
+    "check": "bun run --filter '@home/orchestrator' check"
+  },
+  "engines": {
+    "bun": ">=1.1.0"
+  }
+}
